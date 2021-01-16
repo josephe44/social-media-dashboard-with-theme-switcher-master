@@ -288,3 +288,47 @@ input:checked + .slider:before {
     margin: 20px 60px;
   }
 }
+
+@media (max-width: 750px) {
+  hr {
+    border: 1px solid #63687e;
+    display: block;
+    margin-top: 15px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .toggle {
+    margin-top: 5px;
+  }
+  .toggle div {
+    margin-left: 100px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .header-text {
+    text-align: justify;
+    margin: 0 40px;
+  }
+  .header-text h1 {
+    font-size: 20px;
+  }
+  .toggle {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px 40px;
+  }
+  .section-1 {
+    margin: 0 30px;
+  }
+  .section-2 {
+    margin: 20px 60px;
+  }
+}
